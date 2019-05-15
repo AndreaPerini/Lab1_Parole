@@ -11,6 +11,8 @@ public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
+//			ParoleController controller = new ParoleController();
+			
 			BorderPane root = (BorderPane)FXMLLoader.load(getClass().getResource("Parole.fxml"));
 			Scene scene = new Scene(root);
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());

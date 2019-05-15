@@ -1,4 +1,4 @@
-package parole.model;
+package parole;
 
 import java.util.*;
 
